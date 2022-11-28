@@ -1,10 +1,11 @@
 import { useState } from 'react'
-
+import LeftBar from './components/LeftBar'
+import './scss/style.scss'
 function App() {
 
   return (
     <div className="App">
-     <h1> Rafu </h1>
+     <LeftBar></LeftBar>
     </div>
   )
 }

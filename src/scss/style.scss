@@ -1,0 +1,25 @@
+@import 'nullstyle.scss';
+// font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+body {
+    background: #1D2833;
+
+}
+
+
+.App {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+
+@import 'LeftBar.scss';
