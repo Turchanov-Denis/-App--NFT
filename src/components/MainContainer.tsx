@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar } from '../../Navbar'
+import { NavBar } from './Navbar'
 
 
 export const MainContainer: React.FC = () => {

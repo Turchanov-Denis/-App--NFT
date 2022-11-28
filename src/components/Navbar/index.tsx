@@ -9,7 +9,7 @@ export const NavBar: React.FC = () => {
         <div className='header'>
 
             <input type="text" placeholder='Search by creator' />
-            <ul>{menuList.map(item => <li> {item} </li>)}</ul>
+            <ul>{menuList.map((item,index) => <li key={index}> <a href="#">{item}</a> </li>)}</ul>
             <button>Create</button>
 
         </div>
