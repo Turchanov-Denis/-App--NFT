@@ -1,0 +1,99 @@
+.card {
+    width: 359px;
+    height: 529px;
+
+    background: #252A36;
+    border-radius: 8px;
+    padding: 22px;
+
+    &__image {
+        width: 315px;
+        height: 284px;
+
+
+        background: url(pexels-erik-mclean-7360387.jpg);
+        border-radius: 8px;
+    }
+
+    &__title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        margin: 15px 0 20px 0;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+    }
+
+    &__count {
+        display: flex;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #9A9AF2;
+        span {
+            padding-left: 12px;
+        }
+    }
+
+    &__place {
+        padding-left: 13px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+    }
+
+    &__higjest {
+        display: flex;
+        margin: 20px 0;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+        
+    }
+
+    &__time {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+    }
+
+    &__like {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+    }
+
+    hr {
+        width: 315px;
+        height: 2px;
+
+        background: #C4C4C4;
+        margin-bottom: 20px;
+    }
+}

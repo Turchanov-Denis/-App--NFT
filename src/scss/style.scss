@@ -18,9 +18,18 @@ body {
 
 }
 
+.main-container {
+    display: flex;
+    flex-direction: column
+}
 
+.content {
+    padding: 30px;
+}
 
 
 
 @import 'LeftBar.scss';
 @import 'NavBar.scss';
+@import 'Card.scss';
+@import 'Advertisement.scss';
